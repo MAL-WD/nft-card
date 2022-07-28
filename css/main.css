@@ -1,0 +1,80 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit";
+}
+.container {
+    border-radius: 10px;
+    background-color:hsl(216, 50%, 16%);
+    width: 200px;
+    margin: 100px auto 0;
+    padding: 20px;
+    
+    box-shadow: 0 0 300px hsl(215, 55%, 10%);
+}
+.container img{
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+.container h3{
+    margin: 15px 0;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+.container .text p{
+   color: hsl(215, 51%, 70%);
+   margin: 0;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 20px 0;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+h3:hover{
+    color: hsl(178, 100%, 50%);
+
+}
+
+.box > div > i{
+    margin-right: 5px;
+}
+.box .time{
+    color:hsl(215, 51%, 70%) ;
+    position: relative;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+}
+.footer{
+    display: flex;
+    margin: 10px 0 0;
+    align-items: center;
+}
+.footer img{
+    width: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 20px;
+    margin-right: 10px;
+}
+.footer p{
+    color:hsl(215, 51%, 70%) ;
+    font-size: 13px;
+}
+.footer span{
+    color: white;
+    
+
+}
+.footer span,h3,.container img{
+    cursor: pointer;
+}
+.footer span:hover{
+    color: hsl(178, 100%, 50%);
+
+}
+
+
