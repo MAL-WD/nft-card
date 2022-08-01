@@ -1,1 +1,2 @@
-# order-summary-component
+# nft-card-component
+from front mentor
